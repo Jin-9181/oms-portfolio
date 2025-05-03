@@ -50,11 +50,13 @@ well)
             print(error)
         except (ValueError or TypeError) as error:
             print(error)
+        except ValueError, TypeError, ZeroDivisionError: 
+            print(error)
         except Exception as error:   -> handling all other errors that wasnt specified. 
             print("Some other type error occurred") 
         print("Done!")
 - Finally block and else
-    - Finally block is code that runs only when try 
+    - else block is code that runs only when try 
     - example 
         try:
         except TypeError as error: 
