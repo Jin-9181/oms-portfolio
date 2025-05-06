@@ -1,7 +1,7 @@
 # 📘 Week [1] Learning Summary
 
 ## ✅ Topics Covered
-- Chapter 4.2: Data Structure
+- Chapter 4.2: Strings
 
 ---
 
