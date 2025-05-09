@@ -57,6 +57,10 @@
         - for integer : lowest to highest
             - this means list is mutable. the value actually changed
         - the index changs but the id of value will remain
+    - mylist = sorted(mylist, key=lambda x: x[n], reverse = bool) 
+    - : it sorts the list using certain part(index 'n') of sublists. This line sorts my_list based on the value at index n of each sublist (or tuple).The reverse=True argument means the list will be sorted in descending order. If you want ascending order, use reverse=False (or just leave it out, since False is default).
+
+
     - 
     - list.append(x)
     - list.extend(otherlist_name)

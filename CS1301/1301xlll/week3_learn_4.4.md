@@ -37,6 +37,8 @@
     - smart way to do it
         - filename.write("\n".join(listname)) : this will change the list into a looong string with multiple breakline character. so this will print the items of list on different lines
         - print(variable, file = file_name_variable) : this will automatically add line break.
+        - print(variable1, var2, var3, file = file_name_variable) also works
+    - 
 
 - Appending the fiels: use "a" instaed of "w"
     - after opening the file with "a"
@@ -62,6 +64,7 @@
     - for i in file_variable: 
     -   list_name.append(i.strip())
     - use strip to get rid of the line break at the end of each lines in a file
+    - list_name = [item.strip() for item in filename.readlines()]
 - we can read each line and assign it to variables 
     - variable_name = file_variable.readline().strip()
     - vraiable_int = int(file_variable.readline())
