@@ -44,10 +44,13 @@
 - defaultdict
     - how to use: from collections import defualtdict
     - dictionary_name = defualtdict(data_type)
-        - int, list, dict, etc
+        - int, list, dict, tauple, str etc
         - this will set up a defautl value for keys that doesn't exist. 
         - unlike dict which will cause KeyError when calling a non-exisitng keys
-
+- reverse dic 
+    - when the structure of dictionary is k : v  (1 on 1), we can reverse the key and value by 
+    - reverse = {v: k, for k, v in dic.items()}
+    - this only works when the original value is a immutable data type
 ### Concept 4: [Traversing Dictionaries]
 - values(): A method of the dictionary type that returns a list of all the values of that dictionary.
 - keys(): A method of a dictionary type that returns a list of all the keys in that dictionary.
@@ -59,7 +62,7 @@
     - for (key, value) in dict.items():
         - if value < 5: 
             print(key, "is less than", value)
-
+- list_name = list(dict_name.keys()): turns the keys of a dictionary into a list
 ### Concept 5: [Dictionaries and lists]
 - we can store lists or tauples as a value in dictionary
 - lists for multiplees values with same qualatative charaterirstisc.
@@ -67,7 +70,7 @@
 - dictionaries of dictionaries
     - creating a dictionary as a value to a name (key) : and that sub-dictionary will hold address, phone number, emails as key with a corresponding value
 - we can trea lists as value in dictionary as normal list
-    - dict_name[list_as_key_name].append[value] works
+    - dict_name[list_as_key_name].append(value) works
     - accessing values : dict_name[key_name][index]
 
 - the first value we create for a key in dictionary will determine the data type of the value. so we have to explicitly assign the right data type. int, str, list, tauple 

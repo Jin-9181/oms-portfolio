@@ -75,6 +75,9 @@
     - list.index(value) = returns the index of the value
     - list.count(value) = returns the count of value in the list
     - value in list : a boolean oeprator to check whether a value is insde the list.
+    - list_name = list(iterable_value)
+        - tauple, string, dic.keys(), dic.items(), dic.values(), range(x,y), string slices
+    - 
     ## 🔄 In-Place vs New Object Behavior in Python
 
 | Operation / Method            | Data Type        | Behavior        | Description |

@@ -97,7 +97,7 @@
 - string.strip() : strips out all the whitespaces before and after the string
 - string.replace("substring", "replacing string")
 - string.split() = list of substruings
-- adding_string.join(list of string) = joining the list inside the string using the 'adding_string' as a separator
+- adding_string = seperator.join(list of string)  : joining the list into a string using the 'adding_string' as a separator
 - all these method won't change the value of a string but it shows the result what if we did chage it.
 - split is opposite of join
 

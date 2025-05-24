@@ -43,7 +43,7 @@
 - Red for reserved keywords
 - blue for variables
 - purple for functions
-- green for strings 
+- green for strings
  
 
 ## 💻 Code Practice Summary
